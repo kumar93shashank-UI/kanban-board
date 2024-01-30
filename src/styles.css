@@ -1,0 +1,100 @@
+/* App.css */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.kanban-board {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.kanban {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.column .group-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.column .group-header .header-left {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.icons-container {
+  display: flex;
+  align-items: center;
+}
+.ticket-header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.ticket-id {
+  color: #aaaaaa;
+}
+.ticket {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.ticket-footer-container {
+  display: flex;
+  gap: 10px;
+}
+.dots-container {
+  display: flex;
+  align-items: center;
+}
+.exclamation-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+}
+.ticket-tags-container {
+  display: flex;
+  gap: 10px;
+  color: #aaaaaa;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  padding: 0 10px;
+  margin-top: 10px;
+}
+.container {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  z-index: 1000;
+  align-items: center;
+}
+.detailsButtonText {
+  display: flex;
+  align-items: center;
+}
+.groupingLabel {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+.orderingLabel {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.title {
+  flex: 1;
+}
